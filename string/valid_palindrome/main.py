@@ -1,4 +1,4 @@
-def isPalindrome(s):
+def is_palindrome(s):
     left, right = 0, len(s) - 1
 
     while left < right:
@@ -15,4 +15,4 @@ def isPalindrome(s):
     return True
 
 
-print(isPalindrome("A man, a plan, a canal: Panama"))
+print(is_palindrome("A man, a plan, a canal: Panama"))
