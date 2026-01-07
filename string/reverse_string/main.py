@@ -9,8 +9,8 @@ print(reverse_string_slicing("pedro"))
 # Outra opção
 
 def reversed_string_join(s):
-    reveserd_string = ''.join(reversed(s))
-    return reveserd_string
+    reversed_string = ''.join(reversed(s))
+    return reversed_string
 
 
 print(reversed_string_join("pedro"))
