@@ -6,11 +6,19 @@ def reverse_string_slicing(s):
 print(reverse_string_slicing("pedro"))
 
 
-# Outra opção
-
 def reversed_string_join(s):
     reversed_string = ''.join(reversed(s))
     return reversed_string
 
 
 print(reversed_string_join("pedro"))
+
+
+def reversed_string_manual(s):
+    reversed_string = ''
+    for char in s:
+        reversed_string = char + reversed_string
+    return reversed_string
+
+
+print(reversed_string_manual("pedro"))
